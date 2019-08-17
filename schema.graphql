@@ -1,0 +1,21 @@
+type User {
+  name: String!
+  todoLists: [TodoList!]! @relation
+}
+
+type TodoList {
+  user: User!
+  name: String!
+  todos: [Todo!]! @relation
+}
+
+type Todo {
+  todoList: TodoList!
+  title: String!
+  done: Boolean!
+}
+
+type Query {
+  allUsers: [User!]!
+  users(name: String): [User!]!
+}
