@@ -1,8 +1,16 @@
-# FaunaDB の検証用レポジトリ
+# FaunaDB のGraphQLサポート検証用のレポジトリ
 
 ## FaunaDB とは
 
-分散 DB で、CAP 定理のうち CP(consistency, persistence)
+公式
+
+https://fauna.com
+
+説明
+
+- https://www.infoq.com/jp/news/2017/04/faunadb/
+- https://docs.fauna.com/fauna/current/introduction
+- https://docs.fauna.com/fauna/current/whitepapers/relational
 
 ## 使い方
 
